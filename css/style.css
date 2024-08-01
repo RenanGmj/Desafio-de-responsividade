@@ -57,3 +57,60 @@
     color: #FFFFFF;
     background-color: #23272A;
 }
+
+/* estilização da main */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container-flex{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+    padding: 44px;
+}
+
+.s2{
+    background: #F6F6F6;
+}
+
+.s3{
+    
+    
+    background: #F6F6F6;
+    flex-direction: column;
+    text-align: center;
+}
+.ti-te{
+    width: 25%;
+}
+.ti-te-col{
+    width: 42%;
+}
+.titles{
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: #23272A;
+}
+
+.texts-ex{
+    font-family:"Open Sans", sans-serif ;
+    font-size: 16px;
+    font-weight: 400;
+    color: #23272A;
+
+}
+
+footer{
+    background-color: #23272A;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
